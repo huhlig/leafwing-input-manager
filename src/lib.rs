@@ -78,6 +78,7 @@ pub mod prelude {
     pub use crate::IntoEnumIterator;
 
     pub use crate::{Actionlike, InputManagerBundle, InputManagerPlugin};
+    pub use strum::EnumIter;
 }
 
 /// A [`Plugin`] that collects [`Input`] from disparate sources, producing an [`ActionState`] to consume in game logic
